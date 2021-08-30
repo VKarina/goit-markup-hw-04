@@ -319,6 +319,10 @@ body {
 .clients-icon {
   fill: #afb1b8;
 }
+.clients-list > .item:hover,
+.clients-list > .item:focus {
+  border: 1px solid var(--accent-color);
+}
 .clients-icon:hover,
 .clients-icon:focus {
   fill: var(--accent-color);
