@@ -282,10 +282,11 @@ body {
   fill: #ffffff;
 }
 .social-net-link {
-  padding: 16.86px;
-  max-width: 44px;
-  max-height: 44px;
-  display: block;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
 }
 .social-net-link:hover,
